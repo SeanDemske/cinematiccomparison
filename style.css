@@ -1,0 +1,94 @@
+.tutorial {
+  width: 600px;
+  text-align: center;
+  margin: auto;
+}
+
+figure.image {
+  display: flex;
+  justify-content: center;
+  background-color: black;
+}
+
+figure .image img {
+  width: 128px;
+}
+
+.notification {
+  margin-top: 20px !important;
+}
+
+.results {
+  max-height: 500px;
+  overflow-y: scroll;
+}
+
+.title .icon {
+  margin-left: 15px;
+}
+
+.hero {
+  margin-bottom: 20px;
+}
+
+.forms {
+  display: flex;
+  justify-content: space-around;
+}
+
+.dropdown {
+  display: flex;
+}
+
+.dropdown-item {
+  display: flex;
+  align-items: center;
+  height: 60px;
+}
+
+.dropdown-item img {
+  height: 50px;
+  margin-right: 10px;
+}
+
+::-webkit-scrollbar {
+  width: 0px;
+  background: transparent; /* make scrollbar transparent */
+}
+
+.invisible {
+  visibility: hidden;
+}
+
+.mf-top-margin {
+  margin-top: 15px;
+}
+
+.header {
+  /* border-left: 5vw solid #3d3d3d;
+  border-right: 5vw solid #3d3d3d; */
+  background-image: url(header.png);
+  background-repeat: repeat-x;
+  background-size: contain;
+  background-position: center center;
+  height: 100%;
+}
+
+.blackbar {
+  background-color: #3d3d3d;
+  padding-bottom: 10px;
+  padding-top: 5px;
+  margin-bottom: 50px;
+}
+
+.title {
+  color: white;
+}
+
+.notification {
+  border-radius: 10px;
+}
+
+.notification.is-primary {
+  background-color: #3d3d3d;
+}
